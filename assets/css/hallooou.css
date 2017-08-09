@@ -43,7 +43,7 @@ Version: 1.0
     5.2:    About section ("About us")
     5.3:    Services section ("What we do")
     5.4:    Products section ("Why choose us")
-    5.5:    Team section 
+    5.5:    Team section
     5.6:    Portfolio section
     5.7:    Clients section
     5.8:    Contact section
@@ -64,7 +64,7 @@ Version: 1.0
 
 
 
-/* 1:   Pre-loader -  Need more customizations? Visit-> http://github.hubspot.com/pace/docs/welcome/ 
+/* 1:   Pre-loader -  Need more customizations? Visit-> http://github.hubspot.com/pace/docs/welcome/
 /* ---------------------------------------------- */
 
 .pace {
@@ -254,18 +254,18 @@ a:focus {
     box-shadow: none;
 }
 
-blockquote { 
+blockquote {
     display: block;
     font-size: 22px;
-    position: relative; 
+    position: relative;
     padding-left: 90px;
     color: rgba(240, 170, 0, 0.7);
     border-color: rgba(240, 170, 0, 0.7);
 }
- 
+
 blockquote:before {
     content: "\f10d";
-    font-size: 55px; 
+    font-size: 55px;
     font-family: FontAwesome;
     position: absolute;
     top: -4px;
@@ -423,7 +423,7 @@ blockquote span{
 /* The overlay */
 .overlay {
     position: fixed;
-    display: block; 
+    display: block;
     background: rgba(240, 170, 0, 0.7); /* Primary color, can be changed via colors.css */
     top: 0;
     border: 0;
@@ -546,7 +546,7 @@ blockquote span{
     padding: 0;
     margin: 10px 0;
     color: #fff;
-} 
+}
 
 .carousel-caption .intro-text{
     padding: 0;
@@ -811,7 +811,7 @@ video {
     color:#fff;
             transform: translate(0,-5px);
      -webkit-transform: translate(0,-5px);
-          -o-transform: translate(0,-5px); 
+          -o-transform: translate(0,-5px);
         -moz-transform: translate(0,-5px);
      -webkit-transition: all .3s ease-in-out;
         -moz-transition: all .3s ease-in-out;
@@ -822,7 +822,7 @@ video {
     color:#fff;
             transform: translate(0,-10px);
      -webkit-transform: translate(0,-10px);
-          -o-transform: translate(0,-10px); 
+          -o-transform: translate(0,-10px);
         -moz-transform: translate(0,-10px);
      -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
@@ -833,7 +833,7 @@ video {
     color:#fff;
             transform: translate(0,-5px);
      -webkit-transform: translate(0,-5px);
-          -o-transform: translate(0,-5px); 
+          -o-transform: translate(0,-5px);
         -moz-transform: translate(0,-5px);
      -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
@@ -866,7 +866,7 @@ video {
 }
 
 .products-container span.icon{
-    display: inline-block;  
+    display: inline-block;
     padding: 18px;
     margin: 0 0 22px 0;
     min-width: 80px;
@@ -962,7 +962,7 @@ video {
 .team-member figure:hover figcaption{
     visibility: visible;
     color: #fff;
-    background: rgba(230,78,62,0.9); /* Primary color, can be changed via colors.css */
+    background: rgba(240, 170, 0, 0.7); /* Primary color, can be changed via colors.css */
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -1039,7 +1039,7 @@ video {
 }
 ul.project-meta {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 ul.project-meta li{
@@ -1270,7 +1270,7 @@ ul.project-meta{
 
 .contact-form .form-group input[type="email"],
 .contact-form .form-group input[type="phone"],
-.contact-form .form-group input[type="text"] 
+.contact-form .form-group input[type="text"]
 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1593,7 +1593,7 @@ footer .social a{
     border: 1px solid #fff; /* Hover border color, can be changed via colors.css */
     outline: 0;
     color: #fff;
-    background: #df514c; /* Hover color, can be changed via colors.css */
+    background: rgba(240, 170, 0, 1); /* Hover color, can be changed via colors.css */
 }
 
 
@@ -1606,7 +1606,7 @@ footer .social a{
 
 /* Hero unit mouse animation */
 
-@-webkit-keyframes rotateplane { 
+@-webkit-keyframes rotateplane {
     0% {
         -webkit-transform: translateY(-2px)
     }
@@ -1616,7 +1616,7 @@ footer .social a{
     }
 }
 
-@keyframes rotateplane { 
+@keyframes rotateplane {
     0% {
         transform: translateY(-2px);
         -webkit-transform: translateY(-2px);
@@ -1684,7 +1684,7 @@ footer .social a{
     border: 1px solid #fff; /* Hover border color, can be changed via colors.css */
     outline: 0;
     color: #fff;
-    background: #df514c; /* Hover color, can be changed via colors.css */
+    background: rgba(240, 170, 0, 0.7); /* Hover color, can be changed via colors.css */
 }
 
 
@@ -1718,13 +1718,13 @@ footer .social a{
     border: 2px solid #fff;
     border-radius: 50%;
     width: 60px;
-    height: 60px; 
+    height: 60px;
 }
 
 .squared {
     padding: 10px;
     width: 60px;
-    height: 60px; 
+    height: 60px;
 }
 
 
@@ -1809,7 +1809,7 @@ footer .social a{
     .carousel-caption {
         top: 30%;
         margin: 0;
-   
+
     }
 
     .carousel-caption h1 {
@@ -1838,7 +1838,7 @@ footer .social a{
         color: #fff;
     }
 
-    
+
 
 
     .button_container span,
@@ -1860,7 +1860,7 @@ footer .social a{
         bottom: 4%;
         right: 3%;
     }
-    
+
     .scroll-top a:link,
     .scroll-top a:visited {
         padding:2px 6px;
@@ -1932,14 +1932,14 @@ footer .social a{
     text-shadow: none;
     background: #fcfcfc;
     color: #fff;
-    background: rgba(254,82,76, .8);
+    background: rgba(240, 170, 0, 0.7);
 }
 
 ::selection {
     text-shadow: none;
     background: #fcfcfc;
     color: #fff;
-    background: rgba(254,82,76, .8);
+    background: rgba(240, 170, 0, 0.7);
 }
 
 img::selection {
@@ -1951,7 +1951,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(254,82,76, .8);
+    webkit-tap-highlight-color: rgba(240, 170, 0, 0.7);
 }
 
 
